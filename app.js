@@ -859,9 +859,7 @@ class ScheduleManager {
         `;
         
         container.appendChild(toast);
-        console.log(container)
 
-        
         // Close button
         const closeBtn = toast.querySelector('.toast-close');
         closeBtn.addEventListener('click', () => this.removeToast(toast));
