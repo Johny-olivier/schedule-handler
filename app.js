@@ -5,7 +5,7 @@
 
 class ScheduleManager {
     constructor() {
-        this.apiUrl = 'api.php';
+        this.apiUrl = 'https://schedule-handler.infinityfreeapp.com/api.php';
         this.schedules = {};
         this.currentView = 'week';
         this.currentDay = 'lundi';
