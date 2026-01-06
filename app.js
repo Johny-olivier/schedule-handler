@@ -883,15 +883,4 @@ class ScheduleManager {
 // Initialize app when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     window.scheduleApp = new ScheduleManager();
-
-    const allStats = document.querySelectorAll('stat-card');
-    console.log(allStats)
-
-    allStats.forEach(statCard => {
-        statCard.addEventListener("click", () => {
-            let search = statCard.dataCategory;
-
-            inputSearch.value = search;
-        })
-    });
 });
