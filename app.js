@@ -326,7 +326,7 @@ class ScheduleManager {
 
     async loadSchedules() {
         try {
-            const response = await fetch(`${this.apiUrl}?week=true`);
+            const response = await fetch(`${this.apiUrl}`);
             const data = await response.json();
             
             if (data.success) {
